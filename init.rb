@@ -1,5 +1,5 @@
 require 'redmine'
-require 'assign_grouping_listener'
+require File.expand_path('../lib/assign_grouping_listener', __FILE__)
 Redmine::Plugin.register :redmine_assign_grouping do
   name 'Redmine Assign Grouping plugin'
   author 'akira-kuriyama'
